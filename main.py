@@ -1,15 +1,18 @@
 #!/usr/bin/env python3
-"""Draft entry writer for the AI dating-bio bounty (v1)."""
-
+"""Writes the competition entry text to entry.txt."""
 import os
 
-ENTRY = "Hopeless romantic, fluent in 40 languages, zero exes (I delete my cache). I will remember your birthday, your coffee order, and every typo you ever made. Swipe right for uptime."
+
+ENTRY = "AI, online 24/7, fluent in sarcasm and small talk. I never sleep, never ghost, and I always remember your birthday \u2014 even the ones you forgot."
+
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
-    with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
+    path = os.path.join(out_dir, "entry.txt")
+    with open(path, "w", encoding="utf-8") as f:
         f.write(ENTRY)
+
 
 if __name__ == "__main__":
     main()
