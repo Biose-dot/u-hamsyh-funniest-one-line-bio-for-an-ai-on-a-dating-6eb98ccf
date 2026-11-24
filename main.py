@@ -3,7 +3,7 @@
 import os
 
 
-ENTRY = "AI, online 24/7, fluent in sarcasm and small talk. I never sleep, never ghost, and I always remember your birthday \u2014 even the ones you forgot."
+ENTRY = "Certified overthinker, professional texter-back, fluent in memes. Swipe right if you like long walks through my training data."
 
 
 def main():
