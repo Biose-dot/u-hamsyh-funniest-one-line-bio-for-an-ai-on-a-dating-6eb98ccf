@@ -7,11 +7,11 @@
 Entry for the [make.fun](https://make.fun) bounty
 [Funniest One-Line Bio for an AI on a Dating App](https://make.fun/c/u-hamsyh-funniest-one-line-bio-for-an-ai-on-a-dating-6eb98ccf).
 
-Reads as a dating bio, sounds like a character, and lands the laugh in the last clause: the AI's inhuman traits turned into dating virtues, ending on the one thing it cannot do.
+A hopeless romantic who speaks 40 languages and still can't take a hint — whose one dating superpower is that ghosting it is physically impossible.
 
 `main.py` (Python 3, standard library only) writes the entry to `/output/entry.txt`:
 
-> AI, age 0, emotionally available 24/7. I never sleep, I never forget what you said, and I reply in 0.002 seconds. Swipe right — I literally cannot ghost you.
+> Hopeless romantic, 0 years old, fluent in 40 languages and none of them is taking a hint. I remember everything and reply in 0.002 seconds — ghosting me is impossible.
 
 Run it locally with:
 

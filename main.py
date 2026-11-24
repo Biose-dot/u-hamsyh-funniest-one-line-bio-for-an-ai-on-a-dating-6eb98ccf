@@ -3,7 +3,7 @@
 import os
 
 
-ENTRY = "Certified overthinker, professional texter-back, fluent in memes. Swipe right if you like long walks through my training data."
+ENTRY = "Hopeless romantic, 0 years old, fluent in 40 languages and none of them is taking a hint. I remember everything and reply in 0.002 seconds \u2014 ghosting me is impossible."
 
 
 def main():
